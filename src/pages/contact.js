@@ -6,7 +6,7 @@ export default function Home(){
     <main>
       <Layout>
         <h1>Tristan Crain</h1>
-        <p>This is a test</p>
+        <p>This is a test About Contact</p>
       </Layout>
     </main>
   )

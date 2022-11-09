@@ -6,5 +6,7 @@ module.exports = {
     title: `Portfolio-Gatsby`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-postcss'
+  ],
 }
