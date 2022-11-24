@@ -5,7 +5,7 @@ import { useState } from "react"
 
 export default function App(){
 
-  const[currentPage,setCurrentPage] = useState(0)
+  const[currentPage,setCurrentPage] = useState(1)
 
   function handleNextPage(){
     setCurrentPage(currentPage + 1);
@@ -16,7 +16,7 @@ export default function App(){
 
   return(
     <main>
-      <Layout incrementPage = {handleNextPage} decrementPage = {handlePreviousPage}/>
+      <Layout incrementPage = {handleNextPage} decrementPage = {handlePreviousPage} currentPageNumber={currentPage}/>
       <Home currentPageNumber={currentPage}/>
     </main>
   )
