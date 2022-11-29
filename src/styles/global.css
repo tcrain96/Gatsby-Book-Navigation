@@ -9,6 +9,13 @@
     }
   }
 
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     transition:0.5s;
 }
@@ -31,7 +38,7 @@ a{
 
 /*Seasonal Styles*/
 .winter-background-overlay{
-    background: #01093f;
+    background: #222222;
 }
 
 .winter-background{
@@ -40,8 +47,9 @@ a{
 .winter h1{
     color:white;
 }
-.winter p{
+.winter h3{
     color:white;
+    font-size: 30px;
 }
 .winter a{
     background-color:white;

@@ -9,14 +9,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
     `gatsby-plugin-image`,
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        defaults: {
-          quality: 90,
-        }
-      }
-    },
-    `gatsby-transformer-sharp`
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 }
