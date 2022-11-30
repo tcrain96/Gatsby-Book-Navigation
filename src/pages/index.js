@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import Home from "../pages/home"
+import Book from "./book"
 import { useState } from "react"
 
 export default function App(){
@@ -19,7 +19,7 @@ export default function App(){
   return(
     <main>
       <Layout incrementPage = {handleNextPage} decrementPage = {handlePreviousPage} currentPageNumber={currentPage}/>
-      <Home currentPageNumber={currentPage} incrementPage = {handleNextPage}/>
+      <Book currentPageNumber={currentPage} incrementPage = {handleNextPage}/>
     </main>
   )
 
