@@ -2,6 +2,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { useDispatch, useSelector } from "react-redux";
 import { setActiveLayer } from "../../../features/ActiveLayer/activeLayerSlice";
+import { setPageNumber } from "../../../features/PageNumber/pageNumberSlice";
 
 export default function Projects({pageturn}){
 
@@ -14,8 +15,11 @@ return (
             <StaticImage src="../../../images/Projects.png" height={150} class="self-center my-10" alt="Projects" />
             <div id="projects-grid">
 
-                <article id="carpeDiem" onClick={() => dispatch(setActiveLayer(2))}>
-                    <p>CarpeDiem</p>
+                <article id="encounter-the-truth" onClick={() => {
+                    dispatch(setActiveLayer(2));
+                    dispatch(setPageNumber(5));
+                }}>
+                    <p>Encounter The Truth</p>
                 </article>
 
             </div>

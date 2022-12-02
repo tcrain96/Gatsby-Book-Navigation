@@ -1,34 +1,14 @@
 import * as React from "react"
-import Home from "../../MapLocations/Home"
-import About from "../../MapLocations/About"
-import Projects from "../../MapLocations/Projects"
-import Contact from "../../MapLocations/Contact"
+import EncounterTheTruth from "../../MapLocations/Projects/EncounterTheTruth"
 import { useSelector } from "react-redux"
-export default function Layer2({activeLayer}){
-
+export default function Layer2({activeLayer, pageTurn}){
 
   const currentLayer = useSelector((state)=>state.activeLayer.value);
 
-  function pageturn(currentPage,myPageNumber){
-
-        if(currentPage < myPageNumber){
-         return "translate-x-[4000px] fixed"
-       }
-        else if (currentPage > myPageNumber){
-          return "-translate-x-[4000px] fixed"
-        }
-        else {
-          return "relative"
-        }
-  }
-
 return (
-    <section className={`z-[3] flex pt-[100px] mx-[50px] duration-500 ${activeLayer(currentLayer,2)}`}>
+    <section className={`z-[3] flex py-[100px] mx-[50px] duration-500 ${activeLayer(currentLayer,2)}`}>
 
-        <Home pageturn={pageturn}/>
-        <About pageturn={pageturn}/>
-        <Projects pageturn={pageturn}/>
-        <Contact pageturn={pageturn}/>
+        <EncounterTheTruth pageturn={pageTurn}/>
         
     </section>
 )

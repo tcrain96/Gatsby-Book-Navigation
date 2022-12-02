@@ -9,7 +9,7 @@ export default function PuppyPals({pageturn}){
 return (
     <section className={`z-20 flex scrollbar-hide text-center w-screen justify-center overflow-scroll duration-[1s] ${pageturn(currentPage,"8")}`}>
         <article className="w-[1500px] self-center">
-            <StaticImage src="../../../images/Projects.png" height={150} class="self-center my-10" alt="Projects" />
+            
         </article>
     </section>
 )

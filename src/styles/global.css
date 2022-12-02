@@ -38,6 +38,10 @@ a{
     font-size:20px;
 }
 
+.gatsby-image-wrapper img{
+    height:auto;
+}
+
 
 
 
