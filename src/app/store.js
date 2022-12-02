@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
-import counterReducer from "../features/counter/counterSlice"
-
+import pageNumberReducer from "../features/PageNumber/pageNumberSlice"
+import activeLayerReducer from "../features/ActiveLayer/activeLayerSlice"
 const store = configureStore({
   reducer: {
-    counter:counterReducer
+    pageNumber:pageNumberReducer,
+    activeLayer:activeLayerReducer
   },
 })
 

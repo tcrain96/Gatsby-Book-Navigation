@@ -1,0 +1,19 @@
+.winter-background-overlay{
+    background: #222222;
+}
+
+.winter-background{
+    background-image: url("../../images/seasons/Winter-Background.png")
+}
+
+.spring-background{
+    background-image: url("../../images/seasons/Spring-Background.png")
+}
+
+.summer-background{
+    background-image: url("../../images/seasons/Summer-Background.png")
+}
+
+.fall-background{
+    background-image: url("../../images/seasons/Fall-Background.png")
+}
