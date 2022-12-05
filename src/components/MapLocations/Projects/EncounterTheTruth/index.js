@@ -13,10 +13,6 @@ return (
             <StaticImage src="./images/Encounter-The-Truth-Home.jpg" quality={100} className="self-center mt-10 rounded-[10px]" />  
 
             <StaticImage src="./images/Encounter-The-Truth-Nav.jpg" quality={100} className="self-center mt-10 rounded-[10px]" />  
-
-            <div className="logo-section flex flex-col mt-10 p-10 py-20 bg-[#1e2b3b] rounded-[10px]">
-                <StaticImage src="./images/Encounter-The-Truth-Logo.png" className="w-[250px] md:w-[400px] self-center" />  
-            </div>
             
             <div className="intro-section text-center mt-10 p-10 py-20 bg-[#222222] text-white rounded-[10px]">
                 <h2 className="font-bold">Overview</h2>
