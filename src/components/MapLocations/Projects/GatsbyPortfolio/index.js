@@ -18,7 +18,7 @@ return (
             
             <div className="intro-section text-center mt-10 p-10 py-20 bg-[#222222] text-white rounded-[10px]">
                 <h2 className="font-bold">Overview</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>The culmination of both my background in game development and web development, my portfolio showcases my desire for new and intuitive navigation, whilst also implementing up to date standards and languages. I built it using Gatsby, alongside tools like Tailwind for CSS classes and Redux for state management.</p>
             </div>
 
             <div className="tools-section bg-[#222222] mt-10 p-10 py-20 rounded-[10px]">

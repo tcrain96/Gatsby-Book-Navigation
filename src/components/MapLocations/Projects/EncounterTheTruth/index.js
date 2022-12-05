@@ -16,7 +16,7 @@ return (
             
             <div className="intro-section text-center mt-10 p-10 py-20 bg-[#222222] text-white rounded-[10px]">
                 <h2 className="font-bold">Overview</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Encounter the Truth is a radio broadcast that gets broadcasted daily across Canada and the US. I joined the project from the start, and built their first website many years ago. Recently, after graduating from school, I revisited their website and rebuilt the entire thing using Squarespace and basic HTML, CSS and Javascript. The intention was to simplify the website, and to make it accessible and clean for the users visiting it.</p>
             </div>
 
             <div className="tools-section bg-[#222222] mt-10 p-10 py-20 rounded-[10px]">

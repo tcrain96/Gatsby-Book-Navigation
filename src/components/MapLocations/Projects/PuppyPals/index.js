@@ -14,7 +14,7 @@ return (
 
             <div className="intro-section text-center mt-10 p-10 py-20 bg-[#222222] text-white rounded-[10px]">
                 <h2 className="font-bold">Overview</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Puppy Pals was my programs final group project. The idea was to develop a web app that would allow for a variety of dog lovers to plan out meetups at dog parks. A user would create a profile, fill it with their dogs information and be able to post events on the home page, enabling other users to see where and when the event would take place. It was built using Mongo, Express, React and NodeJS.</p>
             </div>
 
             <div className="tools-section bg-[#222222] mt-10 p-10 py-20 rounded-[10px]">
