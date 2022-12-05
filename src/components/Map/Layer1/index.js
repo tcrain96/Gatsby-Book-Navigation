@@ -9,7 +9,7 @@ export default function Layer1({activeLayer, pageTurn}){
   const currentLayer = useSelector((state)=>state.activeLayer.value);
 
 return (
-    <section className={`z-[3] flex pt-[100px] mx-[50px] duration-500 ${activeLayer(currentLayer,1)}`}>
+    <section className={`z-[3] flex py-[100px] mx-[50px] duration-500 ${activeLayer(currentLayer,1)}`}>
 
         <Home pageturn={pageTurn}/>
         <About pageturn={pageTurn}/>

@@ -3,17 +3,17 @@
 }
 
 .winter-background{
-    background-image: url("../../images/seasons/Winter-Background.png")
+    background-image: url("./images/Winter-Background.png")
 }
 
 .spring-background{
-    background-image: url("../../images/seasons/Spring-Background.png")
+    background-image: url("./images/Spring-Background.png")
 }
 
 .summer-background{
-    background-image: url("../../images/seasons/Summer-Background.png")
+    background-image: url("./images/Summer-Background.png")
 }
 
 .fall-background{
-    background-image: url("../../images/seasons/Fall-Background.png")
+    background-image: url("./images/Fall-Background.png")
 }

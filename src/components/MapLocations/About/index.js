@@ -8,7 +8,7 @@ export default function About({pageturn}){
 return (
     <section id="page2"className={`z-20 flex scrollbar-hide text-center w-screen justify-center overflow-scroll duration-[1s] ${pageturn(currentPage,"2")}`}>
         <article className="w-[1500px] self-center">
-            <StaticImage src="../../../images/About-Me.png" height={150} class="self-center my-10" alt="About Me" />
+            <StaticImage src="./images/About-Me.png" height={150} class="self-center my-10" alt="About Me" />
             <div id="description" className="bg-[#222222] text-white p-10 rounded-[10px] my-10">
                 <p>I'm a Bilingual, Full-Stack Web Developer leveraging a Game Development background to build fun, intuitive and innovative user experiences on the web. Earned a certificate in Full-Stack Web Development from Carleton University. Innovative problem-solver who is passionate about developing apps with a focus on mobile-first design and development. Strengths in creativity, teamwork, and building projects from ideation to execution.</p>
             </div>

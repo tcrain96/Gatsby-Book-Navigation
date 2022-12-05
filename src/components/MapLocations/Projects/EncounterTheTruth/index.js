@@ -7,11 +7,15 @@ export default function EncounterTheTruth({pageturn}){
     const currentPage = useSelector((state)=>state.pageNumber.value);
 
 return (
-    <section className={`z-20 flex scrollbar-hide text-center w-screen justify-center overflow-scroll duration-[1s] ${pageturn(currentPage,"5")}`}>
+    <section className={`z-20 flex scrollbar-hide text-center w-screen justify-center overflow-scroll duration-[1s] ${pageturn(currentPage,"7")}`}>
         <article className="w-[1500px] self-center flex flex-col">
             
+            <StaticImage src="./images/Encounter-The-Truth-Home.jpg" quality={100} className="self-center mt-10 rounded-[10px]" />  
+
+            <StaticImage src="./images/Encounter-The-Truth-Nav.jpg" quality={100} className="self-center mt-10 rounded-[10px]" />  
+
             <div className="logo-section flex flex-col mt-10 p-10 py-20 bg-[#1e2b3b] rounded-[10px]">
-                <StaticImage src="../../../../images/EncounterTheTruth/Encounter-The-Truth-Logo.png" className="w-[250px] md:w-[400px] self-center" />  
+                <StaticImage src="./images/Encounter-The-Truth-Logo.png" className="w-[250px] md:w-[400px] self-center" />  
             </div>
             
             <div className="intro-section text-center mt-10 p-10 py-20 bg-[#222222] text-white rounded-[10px]">
@@ -35,11 +39,7 @@ return (
                         <li className="bg-gray-700 p-5 m-5 text-[25px] hover:-translate-y-1 duration-300 rounded-[10px]">JavaScript</li>
                     </ul>
                 </div>
-            </div>
-
-            <StaticImage src="../../../../images/EncounterTheTruth/Encounter-The-Truth-Home.jpg" quality={100} className="self-center mt-10 rounded-[10px]" />  
-
-            <StaticImage src="../../../../images/EncounterTheTruth/Encounter-The-Truth-Nav.jpg" quality={100} className="self-center mt-10 rounded-[10px]" />          
+            </div>  
 
         </article>
     </section>
