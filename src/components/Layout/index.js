@@ -11,7 +11,6 @@ export default function Layout() {
       <Map/>
       <SocialNav/>
       <MapNav/>
-      
     </>
   );
 }
