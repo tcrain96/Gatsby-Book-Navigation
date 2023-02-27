@@ -1,6 +1,6 @@
-# React Portfolio
+# Gatsby Book Navigation
 
-[React Portfolio Live URL](https://portfolio60157.gatsbyjs.io/)
+[Gatsby Book Navigation Live URL](https://portfolio60157.gatsbyjs.io/)
 
 ![React Portfolio Home Page](./src/components/MapLocations/Projects/GatsbyPortfolio/images/Portfolio-Home.jpg?raw=true "Home - Gatsby Portfolio")
 
